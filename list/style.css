@@ -1,0 +1,51 @@
+.header {
+    height: 48px;
+    line-height: 48px;
+    background: rgba(0, 0, 0, .8);
+    color: #fff;
+}
+
+.header-title {
+    padding: 0 32px;
+    float: left;
+    color: #fff;
+}
+
+.header-menu {
+    float: right;
+    margin-right: 32px;
+}
+
+.list-control {
+    background: #fff;
+    border-radius: 6px;
+    margin: 16px;
+    padding: 16px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2);
+}
+
+.list-control-filter {
+    margin-bottom: 16px;
+}
+
+.list-control-filter-item,
+.list-control-order-item {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #e9eaec;
+    border-radius: 4px;
+    margin-right: 6px;
+    padding: 2px 6px;
+}
+
+.list-control-filter-item.on,
+.list-control-order-item.on {
+    background: #f2352e;
+    border: 1px solid #f2352e;
+    color: #fff;
+}
+
+.product-not-found {
+    text-align: center;
+    padding: 32px;
+}

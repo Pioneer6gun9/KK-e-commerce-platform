@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- 确保IE浏览器使用最新渲染，并设置移动设备的视口 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+    <div class="header">
+        <router-link to="/list" class="header-title">电商网站首页</router-link>
+        <div class="header-menu">
+            <router-link to="/login/logout" class="header-menu-cart">
+                退出登录
+            </router-link>
+        </div>
+    </div>
+</nav>
+
+
+<body>
+    <div class="list-container">
+        <div class="list-control">
+            <div class="list-control-filter">
+                <span>品牌:</span> 
+                <span class="list-control-filter-item">Apple</span>
+                <span class="list-control-filter-item">Beats</span>
+                <span class="list-control-filter-item">Sonos</span>
+                <span class="list-control-filter-item">B&Q</span>
+                <span class="list-control-filter-item">Bose</span>
+            </div>
+            <div class="list-control-filter">
+                <span>颜色:</span>
+                <span class="list-control-filter-item">白色</span>
+                <span class="list-control-filter-item">金色</span>
+                <span class="list-control-filter-item">红色</span>
+                <span class="list-control-filter-item">蓝色</span>
+
+            </div>
+
+            <div class="list-control-order">
+                <span>排序:</span>
+                <span class="list-control-order-item">默认</span>
+                <span class="list-control-order-item">销量</span>
+                <span class="list-control-order-item">价格</span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
