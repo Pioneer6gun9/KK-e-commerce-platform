@@ -23,10 +23,12 @@
      display: flex;
  }
 
- .content .login-wrapper .left-img {
+img {
+     width: 40vw;
+     height: 80vh;
      border-radius: 40px;
-     flex: 1;
-     background: url(../Demo1_shopping/asset/bg.jpg) no-repeat;
+     /* flex: 1;
+     background: url(../Demo1_shopping/asset/bg.jpg) no-repeat; */
      background-size: cover;
      position: relative;
  }
@@ -37,7 +39,7 @@
      color: #fff;
      position: absolute;
      top: 20%;
-     left: 50%;
+     left: 30%;
      transform: translate(-50%, -20%);
      background: rgba(255, 255, 255, 0.1);
      box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
