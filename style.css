@@ -4,6 +4,10 @@
      font-family: "Aguazyuan", Courier, monospace;
  }
 
+ a {
+    text-decoration: none;
+ }
+
  .content {
      width: 100vw;
      height: 100vh;
@@ -99,7 +103,7 @@ img {
      border: 1px solid rgb(128, 106, 196);
  }
 
- .content .login-wrapper .right-login-form .form-wrapper .input-items .forgot {
+ .content .login-wrapper .right-login-form .form-wrapper .input-items a {
      float: right;
      font-weight: 600;
      text-align: right;
@@ -116,14 +120,14 @@ img {
      border-radius: 10px;
      color: #fff;
      font-size: 25px;
-     margin: 20px 0;
+     margin: 10px 0;
      cursor: pointer;
  }
 
  .content .login-wrapper .right-login-form .form-wrapper .siginup-tips {
      text-align: center;
      font-weight: 600;
-     margin: 10px 0;
+     margin: 5px 0;
  }
 
  .content .login-wrapper .right-login-form .form-wrapper .siginup-tips span:last-child {
@@ -208,3 +212,34 @@ img {
          padding: 20px;
      }
  }
+
+.input-container {
+    position: relative;
+   
+}
+
+.inputs {
+    padding-right: 120px;
+    /* 调整这个值以适应实际情况 */
+}
+
+.codeBtn {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 5px 10px;
+    color: #806AC4;
+    cursor: pointer;
+}
+
+#popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 20px;
+}
